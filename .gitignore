@@ -5,5 +5,4 @@ node_modules
 *_key.json
 yarn-error.log
 src/configuration/*
-**/pnConfig.ts
 lib/*
