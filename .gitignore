@@ -3,8 +3,7 @@ node_modules
 .env*
 *.p8
 *_key.json
-appleKeys/*
-firebaseKeys/*
 yarn-error.log
-*/configuration/*
+src/configuration/*
+**/pnConfig.ts
 lib/*
