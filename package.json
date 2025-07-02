@@ -1,0 +1,26 @@
+{
+  "name": "push-notification-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "send": "node ./lib/src/sending/sendPushNotification.js",
+    "transformJSON": "node ./lib/src/tools/transformConfig.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/apn": "^2.1.2",
+    "@types/lodash": "^4.17.6",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "apn": "^2.2.0",
+    "dotenv": "^16.4.5",
+    "firebase-admin": "^12.2.0",
+    "lodash": "^4.17.21",
+    "node-apn": "^3.0.0"
+  }
+}
