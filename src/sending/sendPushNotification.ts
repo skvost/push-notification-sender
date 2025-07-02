@@ -6,7 +6,7 @@ import { PushNotificationInput } from "../constant/types";
 import { initializeFirebase } from "../firebase/initializeFirebase";
 import { isFirebaseError } from "../firebase/isFirebaseError";
 import { Config } from "../configuration/pnConfig";
-import { pushNotificationData } from "./pushNotificationData";
+import { pushNotificationData } from "../configuration/pushNotificationData";
 
 const sendiOSPn = async ({
   devicePushToken,

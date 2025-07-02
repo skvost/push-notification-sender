@@ -6,5 +6,5 @@ node_modules
 appleKeys/*
 firebaseKeys/*
 yarn-error.log
-configuration/*
+/configuration/*
 lib/*
